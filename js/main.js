@@ -7,7 +7,7 @@ window.onload = function() {
 	game.onload = function() {
 		var scene = new Scene3D();
 		var cube = new Cube();
-//		cube.mesh.texture.src = game.assets['img/enchant.png'];
+		cube.mesh.texture.src = game.assets['img/enchant.png'];
 
 		cube.onenterframe = function() {
 			cube.rotateRoll(0.1);
