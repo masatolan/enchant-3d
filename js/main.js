@@ -1,7 +1,7 @@
 enchant();
 
 window.onload = function() {
-	var game = new Game(320, 480);
+	var game = new Game(320, 560);
 	game.preload('img/enchant.png');
 
 	game.onload = function() {
